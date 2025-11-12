@@ -24,7 +24,7 @@ services:
       # - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
     volumes:
       - .:/app
-      -./notebook/data:/app/notebook/data
+      - ./notebook/data:/app/notebook/data
     ports:
       - "8502:8000"
       - "5001:5000"
