@@ -98,7 +98,7 @@ This feeds into the Flask API.
 ### Run the Flask app:
 
 ```bash
-python app.py
+python application.py
 ```
 
 ### API Endpoint 
@@ -182,3 +182,6 @@ mlproject-main/
 
 - Pip-installable package structure
 - Github Actions for Continuous Integration/Continuous Delivery (CI/CD) on AZURE.
+
+
+Happy Coding!!!
